@@ -42,4 +42,26 @@
     ln -s - soft link 생성
 2. cp 했을 때 생기는 일
     *어떨 때는 되고 어떨 때는 inode 유지안됨
-    
+
+##파일 압축
+tar -파일 모으기
+    cvf :생성하며 tar
+    tvf : 
+    xvf : 압축 풀기
+    xvfz 
+cp 
+    -r -a : 
+    -d
+    -r : 디렉토리 복사 날짜도 바뀜
+gzip -압축
+gupzip - 압축 풀기
+cd --help
+which ls - ls 명령어가 있는 파일 보여줌
+whereis ls
+whereis cd 쉘 명령어라서 경로가 없다.
+
+##쉘명령어
+echo $NAME
+echo $? - exit code를 stdout에 출력
+&& - 앞의 값이 false 이면 뒤의 값 실행 x
+|| - 앞의 값이 true 이면 뒤의 값 실행 x
