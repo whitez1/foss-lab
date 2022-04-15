@@ -1,0 +1,13 @@
+total 100
+24904570 drwxr-xr-x  3 oss103 foss  4096  4월  1 13:09 .
+24641829 drwxr-xr-x 10 oss103 foss  4096  4월  1 12:09 ..
+24905288 -rw-r--r--  1 oss103 foss     0  4월  1 13:09 ans3.txt
+24904798 -rwxr-xr-x  1 oss103 foss  8536  4월  1 12:31 a.out
+24919979 -rw-r--r--  1 oss103 foss    15  4월  1 13:09 a.txt
+24904945 -rwxr-xr-x  1 oss103 foss  8536  4월  1 12:21 b.out
+24919981 -rw-r--r--  1 oss103 foss    17  4월  1 13:09 b.txt
+24905109 -rwxr-xr-x  1 oss103 foss  8536  4월  1 12:21 c.out
+24904797 -rw-r--r--  1 oss103 foss   164  4월  1 12:20 hello.c
+24904652 -rw-r--r--  1 oss103 foss 10496  4월  1 12:15 hist.start
+24905211 -rwxr-xr-x  1 oss103 foss     8  4월  1 12:41 lllls
+24905510 drwxr-xr-x  2 oss103 foss 28672  4월  1 13:07 temp

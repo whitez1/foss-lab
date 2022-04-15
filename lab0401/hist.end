@@ -1,0 +1,680 @@
+    1  who
+    2  ls
+    3  ls
+    4  ls -al
+    5  passwd
+    6  passwd
+    7  passwd
+    8  who
+    9  who
+   10  who | wc
+   11  history
+   12  history
+   13  who | wc
+   14  !
+   15  !
+   16  clear
+   17  ls
+   18  ls -l
+   19  ls -al
+   20  cp ~oss000/.bas* ~oss000/.profile .
+   21  ls
+   22  ls
+   23  ls -al
+   24  ls -al
+   25  exit
+   26  who
+   27  ls -al
+   28  exit
+   29  who
+   30  who : wc
+   31  who | wc
+   32  who
+   33  tty
+   34  who | wc
+   35  who | tail
+   36  who | sort
+   37  clear
+   38  cd
+   39  pwd
+   40  cd ~
+   41  pwd
+   42  ls
+   43  ls -al
+   44  mkdir foss
+   45  cd foss
+   46  pwd
+   47  cd
+   48  pwd
+   49  cd ..
+   50  ls
+   51  cd oss000
+   52  ls
+   53  cd
+   54  cd foss
+   55  ls -al
+   56  echo "Heeji Jang - 202022304" > studentid
+   57  ls -al
+   58  exit
+   59  who
+   60  tty
+   61  ls -al
+   62  cd foss
+   63  ls -al
+   64  cat studentid
+   65  who | wc
+   66  cd /
+   67  pwd
+   68  ls
+   69  ls -al
+   70  cd /dev
+   71  ls -al
+   72  ls -l
+   73  tty
+   74  cd /dev/pts
+   75  ls -l
+   76  echo "Hi I am Heeji" > /dev/pts/133
+   77  tty
+   78  chmod 777 /dev/pts/63
+   79  ls -l
+   80  df
+   81  cd
+   82  pwd
+   83  cd foss
+   84  ls -al
+   85  mkdir lab0315
+   86  cd lab0315
+   87  cd ..
+   88  cd lab0315/
+   89  ls -al
+   90  cd ..
+   91  cd lab0315/
+   92  history
+   93  history > h
+   94  ls -al
+   95  cat h
+   96  vi hello.c
+   97  ls -al
+   98  cc hello.c
+   99  ls -al
+  100  ./a.out
+  101  vi hello.c
+  102  cd /dev
+  103  ls -l std*
+  104  cd /usr/include
+  105  ls
+  106  ls -l stdio.h
+  107  vi stdio.h
+  108  cd
+  109  cd foss
+  110  cd lab0315
+  111  ls -al
+  112  vi hello.c
+  113  cc hello.c
+  114  ./a.out
+  115  vi ~/.profile
+  116  a.out
+  117  who
+  118  vi hello.c
+  119  cc hello.c
+  120  a.out
+  121  exit
+  122  who
+  123  man
+  124  ls foss
+  125  ls -l
+  126  ls
+  127  ls -a
+  128  ls -a -l
+  129  biff
+  130  who | wc
+  131  man ls
+  132  ls -lAh
+  133  cd foss
+  134  mkdir lab0318
+  135  pwd
+  136  cd lab03118
+  137  cd lab0318
+  138  touch file1
+  139  ls -la
+  140  history
+  141  date
+  142  ls -lA
+  143  cp file1 file2
+  144  ls -lA
+  145  cat file1
+  146  cat file3
+  147  vi file1
+  148  ls -la
+  149  cat file1
+  150  link
+  151  link3
+  152  ln file1 hfile1
+  153  ls -la
+  154  cat file1
+  155  cat hfile1
+  156  man cat
+  157  cat file1 file2 hfile1 
+  158  cat file1 file2 hfile1 > sum
+  159  ls -al
+  160  vi hfile1
+  161  ls -al
+  162  cat file1 hfile1 
+  163  history
+  164  whoami
+  165  man whoami
+  166  more /etc/passwd
+  167  pass
+  168  ps
+  169  ls -i
+  170  ls -il
+  171  ln file1 hfile2
+  172  ln hfile2 hfile2_h
+  173  ls -li
+  174  rm file1
+  175  ls -li
+  176  rm file1
+  177  ln -s file2
+  178  ln -s file2 sfile1
+  179  ls -al
+  180  la -li
+  181  vi file2
+  182  ls -la
+  183  ls -li
+  184  cat sfile1
+  185  cat file2 sfile1
+  186  ln -s hfile1 sfile2
+  187  ls -li
+  188  ln -s ../../foss/lab0318/hfile1 slink_str
+  189  ls -al
+  190  file slink_str
+  191  cat slink_str
+  192  cd..
+  193  cd ..
+  194  ls
+  195  mkdir lab0322
+  196  cp studentid stdid
+  197  ls -il
+  198  mv stdid std_id
+  199  ls -li
+  200  man mv
+  201  ls -al
+  202  mv std_id std_id2
+  203  mv std_id2 lab0322/
+  204  ls -al
+  205  cd lab0322
+  206  ls -al
+  207  cp ../lab0318/slink_str ./sl
+  208  ls -al
+  209  ls -lmore sl
+  210  more sl
+  211  cp ../lab0318/slink_str .
+  212  ls -al
+  213  cd ..
+  214  cp lab0318/ lab0318-cp
+  215  cp -r lab0318/ lab0318-cp
+  216  ls -la
+  217  cd lab0318-cp
+  218  ls -lai
+  219  who
+  220  history
+  221  man history
+  222  man clear
+  223  man who
+  224  man wc
+  225  man ls
+  226  man whoami
+  227  man tty
+  228  man pwd
+  229  man echo
+  230  man df
+  231  df
+  232  man df
+  233  man ps
+  234  man mv
+  235  exit
+  236  cd foss
+  237  ls
+  238  who
+  239  mkdir lab0322
+  240  ls
+  241  cd lab0322
+  242  ls -al
+  243  cp ../lab0315/hello.c .
+  244  ls -al
+  245  vi hello.c
+  246  cc hello.c
+  247  ls -al
+  248  a.out
+  249  ./a.out
+  250  cat hello.c
+  251  vi inputfile
+  252  cat inputfile
+  253  ./a.out <0 inputfile
+  254  ./a.out < 0 inputfile
+  255  ./a.out < inputfile
+  256  ./a.out 0< inputfile
+  257  0< inputfile ./a.out
+  258  ls -l
+  259  ls -l > lsresult.txt
+  260  cat lsresult
+  261  cat lsresult.txt 
+  262  ./a.out > a.result
+  263  cat a.result
+  264  ./a.out 2> a.err.result
+  265  cat a.err.result
+  266  ./a.out 0< inputfile 1>stdout.txt 2>stderr.txt
+  267  ls -al
+  268  cat stdout.txt 
+  269  cat stderr.txt 
+  270  cat inputfile 
+  271  ./a.out 0< inputfile 1>std.txt 2>std.txt
+  272  cat std.txt
+  273  ./a.out 0< inputfile >& std.txt
+  274  cat std.txt 
+  275  ./a.out 0< inputfile &> std.txt
+  276  cat std.txt 
+  277  vi inputfile
+  278  man flush
+  279  man fflush
+  280  vi hello.c
+  281  cc hello.c
+  282  ./a.out 0< inputfile &> std.txt
+  283  cat std.txt
+  284  vi hello.c
+  285  ./a.out | wc
+  286  vi hello.c
+  287  ./a.out | ./a.out
+  288  vi hello.c
+  289  cc hello.c
+  290  a.out | a.out
+  291  ./a.out |& wc
+  292  ./a.out >& wc
+  293  cat wc
+  294  vi hello.c
+  295  tee
+  296  man tee
+  297  ./a.out | wc
+  298  ./a.out | tee result
+  299  cat result
+  300  cc hello.c
+  301  ./a.out | tee result
+  302  cat result
+  303  vi hello.c
+  304  ./a.out | tee result
+  305  cc hello.c
+  306  ./a.out | tee result
+  307  cat result 
+  308  man passwd
+  309  man 5 passwd
+  310  man cat
+  311  cat hello.c a.err.result inputfile stdout.txt
+  312  cat hello.c a.err.result inputfile stdout.txt > all.txt
+  313  cat all.txt
+  314  cat
+  315  cat > catout.txt
+  316  more catout.txt
+  317  cat > inputfile
+  318  more inputfile
+  319  man clob
+  320  cat inputfile
+  321  cat >> inputfile
+  322  cat inputfile
+  323  exit
+  324  ls -al
+  325  tty
+  326  pwd
+  327  who | sort
+  328  who | sort | grep
+  329  who | sort | grep oss
+  330  man grep
+  331  grep babo
+  332  ls ../
+  333  grep babo <<EOT
+  334  I am Hwanyoun
+  335  You are Jane.
+  336  You are a babo.
+  337  EOT
+  338  grep EOT <<$$$$$
+  339  EOT is
+  340  EOT is
+  341  $$$$$
+  342  cd foss
+  343  cd lab0322
+  344  ./a.out
+  345  echo "900"
+  346  echo "900" > ipput-900
+  347  ./a.out < input-900
+  348  echo "900" > input-900
+  349  ./a.out < input-900
+  350  ./a.out <<< 900
+  351  ./a.out <<< 901
+  352  ./a.out <<< 902
+  353  cd ~oss000/foss/lab0322
+  354  ./a.out
+  355  ./a.out <<< 202022304
+  356  cd
+  357  pwd
+  358  ls -al
+  359  cd ~foss
+  360  cd
+  361  chmod 700 .
+  362  cd
+  363  cd foss
+  364  ls -l
+  365  mkdir lab0325
+  366  cd lab0325
+  367  ls -la
+  368  mkdir dd1
+  369  chmod a-x dd1
+  370  ls -la
+  371  echo "Test" > dd1/test
+  372  cd dd1
+  373  mv dd1 dir1
+  374  ls -l dir
+  375  ls -l dir1
+  376  ls -la
+  377  chomod g+x dir1
+  378  chmod g+x dir1
+  379  man chown
+  380  ls -la
+  381  whoami
+  382  mv dir1 dir2
+  383  cd dir2
+  384  chmod 500 dir2
+  385  cd dir2
+  386  echo "hwan" > test
+  387  cd ~oss000/foss/lab0325
+  388  cd
+  389  cd foss/lab0325
+  390  ls 0al
+  391  ls-al
+  392  ls -al
+  393  cd ~oss000/foss/lab0325/dir2
+  394  touch oss103
+  395  ls -al
+  396  ls -al | sort
+  397  ls -ald .
+  398  ls -ld .
+  399  cd ..
+  400  cd
+  401  cd foss/lab0325
+  402  chmod 700 dir1
+  403  chmod 700 dir2
+  404  chmod 770 dir2
+  405  ps
+  406  ps -a
+  407  ps -ae
+  408  ps -a
+  409  ps -al
+  410  ps -l
+  411  ps -ael | grep 9218
+  412  sleep 10
+  413  sleep 5 ; echo "5 sec"
+  414  sleep 5000
+  415  ps
+  416  sleep 5000 &
+  417  ls
+  418  ps
+  419  sleep 6000 &
+  420  ps
+  421  kill 11774
+  422  ps
+  423  kill %2
+  424  ps
+  425  sleep 90
+  426  jobs
+  427  bg
+  428  joabs
+  429  jobs
+  430  fg %1
+  431  fg
+  432  vi ans1
+  433  fg
+  434  ls -al
+  435  cd ./lab0322
+  436  ./a.out <<< 5000 &
+  437  ls
+  438  cd ./lab0322
+  439  cd ..
+  440  pwd
+  441  ls
+  442  mkdir dir1
+  443  chmod 700 dir1
+  444  ls
+  445  ls -al
+  446  exit
+  447  cd foss
+  448  ls -al
+  449  cd
+  450  ls -al
+  451  ls
+  452  ls -al
+  453  cd foss
+  454  ls -al
+  455  cd lab0318
+  456  ls -al
+  457  cd ../lab0325
+  458  ls -al
+  459  who
+  460  cd
+  461  ls -al
+  462  exit
+  463  ls
+  464  cd foss
+  465  mkdir lab0329
+  466  ls -al
+  467  cd lab0329
+  468  man tar
+  469  ls -la
+  470  cd ..
+  471  tar -c -f lab0329/backup-0315.tar lab0315
+  472  ls -l lab0315/
+  473  ls
+  474  ls lab0329/
+  475  cp -r -a lab0315 lab0314-cp-a
+  476  ls
+  477  tar cvf lab0329/backup-lab0315.tar
+  478  tar cvf lab0329/backup-lab0315.tar lab0315
+  479  cd lab0329
+  480  ls
+  481  ls -al
+  482  cd ..
+  483  tar cvf lab0329/backup-lab0315.tar lab0315
+  484  cd lab0329
+  485  ls -al
+  486  rm backup-0315.tar
+  487  ls -al
+  488  tar tvf backup-lab0315.tar 
+  489  ls -la
+  490  tar xvf backup-lab0315.tar 
+  491  ls -al
+  492  du
+  493  ls -lh
+  494  du -h
+  495  gzip backup-lab0315.tar 
+  496  ls -al
+  497  gunzip backup-lab0315.tar.gz 
+  498  ls -al
+  499  tar xvfz test.ztar lab0315
+  500  tar cvfz test.ztar lab0315
+  501  ls -la
+  502  tar xvfz test.ztar
+  503  ls -la
+  504  man tar
+  505  man cd
+  506  cd --help
+  507  ls --help
+  508  man ls
+  509  which ls
+  510  which cd
+  511  whereis ls
+  512  whereis cd
+  513  ps
+  514  which bash
+  515  ls -l /bin/*sh
+  516  sh
+  517  ls -la
+  518  man echo
+  519  echo Hi
+  520  echo -n Hi
+  521  echo -n "hi"
+  522  echo -n "hi" ; echo "heeji"
+  523  NAME=Heeji
+  524  echo Name
+  525  echo NAME
+  526  echo $NAME
+  527  Name="pp"
+  528  echo &Name
+  529  echo &NAME
+  530  vi a.out
+  531  echo $PATH
+  532  ./a.out
+  533  chmod 755 a.out
+  534  a.out
+  535  PATH="$PATH:."
+  536  echo $PATH
+  537  a.out
+  538  ./a.out
+  539  ls ; a.out ; sleep 1 ; echo done
+  540  a.out && ls
+  541  echo "1" && echo "2"
+  542  ls a.out
+  543  ls -l a.out
+  544  ls -l b.out
+  545  ls -l b.out 1> /dev/null
+  546  cp ../lab0315/hello.c .
+  547  vi hello.c
+  548  cc hello.c
+  549  a.out
+  550  cat hello.c
+  551  a.out
+  552  echo $?
+  553  a.out <<< 0
+  554  echo $?
+  555  a.out <<< 155 ; echo $?
+  556  a.out <<< 2155 ; echo $?
+  557  python
+  558  a.out <<< 0 && a.out <<<1
+  559  a.out <<< 1 && a.out <<<0
+  560  a.out <<<1 || a.out <<<0
+  561  a.out <<<0 || a.out <<<1
+  562  history
+  563  ls -al
+  564  echo $?
+  565  exit
+  566  ls
+  567  cd foss
+  568  ls
+  569  cd lab0329
+  570  ls lab0329
+  571  ls
+  572  cd ..
+  573  mkdir lab0401
+  574  cd lab0401
+  575  man shopt
+  576  shopt --help
+  577  shopt
+  578  shopt -s histverify
+  579  history
+  580  shopt
+  581  echo "0401 lab start"
+  582  cd
+  583  cd foss
+  584  mkdir lab0401 ; cd lab0401
+  585  history
+  586  history > hist.start
+  587  ls -l
+  588  shopt -u histverify
+  589  shopt -s histverify
+  590  shopt -u histverify
+  591  ls -l
+  592  ls -l -a
+  593  cp ../lab0329/hello.c ../lab0329/a.out .
+  594  1l
+  595  ls -l -a
+  596  cc hello.c
+  597  a.out
+  598  ./a.out <<<999
+  599  cc hello.c
+  600  ./a.out <<<999
+  601  cp a.out b.out
+  602  ls -l -a
+  603  cc hello.c
+  604  ls -l -a
+  605  cp -A b.out c.out
+  606  cp -a b.out c.out
+  607  ls -l -a
+  608  ./b.out <<< 0100
+  609  ./c.out <<< 0100
+  610  ./a.out <<< 0100
+  611  history
+  612  ./a.out <<< 0100
+  613  ./b.out <<< 0100
+  614  history
+  615  ./b.out <<< 0100
+  616  shopt
+  617  shopt -s histverify
+  618  ls
+  619  shopt
+  620  history
+  621  ls -l -a
+  622  shopt
+  623  history
+  624  shopt -n histverify
+  625  shopt --help
+  626  shopt -u histverify
+  627  shopt
+  628  cat hello.c
+  629  cc hello.c
+  630  cc hello.c -o z.out
+  631  ls -al z.out
+  632  rm z.out
+  633  1 2 3 4 5 6
+  634  2 3 4 5 6
+  635  echo "ls -ali" > lllls
+  636  chmod +x lllls
+  637  ./lllls
+  638  ./lllls > ans3.txt
+  639  [[ 123.44 > 99 ]]
+  640  echo $?
+  641  [[ 123.44 < 99 ]]
+  642  echo $?
+  643  echo echo $?
+  644  history | tail
+  645  [[ 123.44 < 99 ]] ; echo $?
+  646  echo $((123*123))
+  647  if ((200>9)) then;
+  648  if ((200>9)); then echo 200 is big; else echo 9 isbig; fi
+  649  ls
+  650  *
+  651  history
+  652  echo *
+  653  echo *out
+  654  echo *u*
+  655  echo l*
+  656  echo a*
+  657  echo *t
+  658  echo *t*
+  659  echo *a*
+  660  echo {a,b,c}.out
+  661  echo {a,b,c}.aaaaaaaaa
+  662  echo {a..z}.z
+  663  mkdir temp
+  664  cd temp
+  665  touch {a..z}.cpp
+  666  ls -al
+  667  touch {0..999}.c
+  668  ls -al
+  669  rm {a..z}*
+  670  ls -al
+  671  echo {1..999..2}.c
+  672  rm {1..999..2}.c
+  673  ls -al
+  674* 
+  675  a.out <<<9 > a.txt ; b.out <<<100 > b.txt
+  676  !
+  677  ./lllls > ans3.txt
+  678  history
+  679  a.out <<<9 > a.txt ; b.out <<<100 > b.txt
+  680  history > hist.end

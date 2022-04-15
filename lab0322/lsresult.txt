@@ -1,0 +1,8 @@
+total 32
+-rwxr-xr-x 1 oss103 foss 8536  3월 22 12:07 a.out
+-rw-r--r-- 1 oss103 foss  164  3월 22 12:06 hello.c
+-rw-r--r-- 1 oss103 foss    6  3월 22 12:18 inputfile
+-rw-r--r-- 1 oss103 foss    0  3월 22 12:22 lsresult.txt
+-rw-r--r-- 1 oss103 foss   22  3월 18 13:11 sl
+-rw-r--r-- 1 oss103 foss   22  3월 18 13:12 slink_str
+-rw-r--r-- 1 oss103 foss   23  3월 18 13:03 std_id2
