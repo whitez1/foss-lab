@@ -43,7 +43,7 @@
 2. cp 했을 때 생기는 일
     *어떨 때는 되고 어떨 때는 inode 유지안됨
 
-##파일 압축
+## 파일 압축
 tar -파일 모으기
     cvf :생성하며 tar
     tvf : 
@@ -60,8 +60,16 @@ which ls - ls 명령어가 있는 파일 보여줌
 whereis ls
 whereis cd 쉘 명령어라서 경로가 없다.
 
-##쉘명령어
+## 쉘명령어
 echo $NAME
 echo $? - exit code를 stdout에 출력
 && - 앞의 값이 false 이면 뒤의 값 실행 x
 || - 앞의 값이 true 이면 뒤의 값 실행 x
+
+## redirection
+1. stdin: 0<, stdout: 1>, stderr: 2>
+1. >& file: stdout과 stderr 둘 다 파일에 redirection
+1. >>: 파일 뒤에 append
+1. |: pipe
+1. |& : stdout과 stderr를 모두 file의 stdin으로 연결.
+1. tee: stdin으로 읽고 stdout과 file로 씀
