@@ -14,7 +14,7 @@ $ systemctl status apache2
 $ cd /var/www/html
 $ mv index.html index.html.orig
 $ vi index.html
-- 컴퓨터의 웹브라우저에서 버추얼머신의 ip address 검색 -> localhost의 default page 보여줌
+- 컴퓨터의 웹브라우저에서 버추얼머신의 ip address 검색 -> 서버의 default page 보여줌
 
 용어들
 * socket
