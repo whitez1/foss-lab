@@ -5,7 +5,7 @@
 2. DB에서 wp user를 추가한다.
 3.  $cp wp-config-sample.php wp-config.php
     $vi wp-config.php
-4.  $mysql -u root
+4.  $mysql -u root  
     DB> GRANT ALL PRIVILEGES ON wp.* TO 'wp'@'localhost';  
     DB> FLUSH PRIVILEGES;  
     DB> quit  
@@ -18,7 +18,7 @@
 # mediawiki 설치 방법
 1. mediawiki 파일을 다운받아서 압축을 푼다. 
 2. DB에서 wiki user를 추가한다.
-3.  $mysql -u root
+3.  $mysql -u root  
     DB> GRANT ALL PRIVILEGES ON wiki.* TO 'wiki'@'%';  
     DB> FLUSH PRIVILEGES;  
     DB> quit  
