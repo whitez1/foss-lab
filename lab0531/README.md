@@ -6,9 +6,9 @@
 3.  $cp wp-config-sample.php wp-config.php
     $vi wp-config.php
 4.  $mysql -u root
-    > GRANT ALL PRIVILEGES ON wp.* TO 'wp'@'localhost';
-    > FLUSH PRIVILEGES;
-    > quit
+    DB> GRANT ALL PRIVILEGES ON wp.* TO 'wp'@'localhost';
+    DB> FLUSH PRIVILEGES;
+    DB> quit
 
 5. 브라우저에서 http://localhost/wp/wp-admin/install.php 라고 검색한 뒤 설치를 시작한다.
 
@@ -19,8 +19,8 @@
 1. mediawiki 파일을 다운받아서 압축을 푼다. 
 2. DB에서 wiki user를 추가한다.
 3.  $mysql -u root
-    > GRANT ALL PRIVILEGES ON wiki.* TO 'wiki'@'%';
-    > FLUSH PRIVILEGES;
-    > quit
+    DB> GRANT ALL PRIVILEGES ON wiki.* TO 'wiki'@'%';
+    DB> FLUSH PRIVILEGES;
+    DB> quit
 
 5. 브라우저에서 http://localhost/wiki 라고 검색한 뒤 설치를 시작한다.
